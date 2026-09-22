@@ -1,0 +1,25 @@
+name: Report a bug
+description: Tell us what went wrong in Time Echo or on this website.
+title: '[Bug] '
+body:
+  - type: markdown
+    attributes:
+      value: 'Reports are public. Do not include personal information. For private support, email lamnv260398@gmail.com.'
+  - type: input
+    id: version
+    attributes:
+      label: App version and device
+      placeholder: 'Time Echo 1.0.0, iPhone 15, iOS 26; or website and browser version'
+    validations:
+      required: true
+  - type: input
+    id: level
+    attributes:
+      label: Level number, if relevant
+  - type: textarea
+    id: steps
+    attributes:
+      label: What happened?
+      description: Describe the steps to reproduce the problem, what you expected, and what happened instead.
+    validations:
+      required: true

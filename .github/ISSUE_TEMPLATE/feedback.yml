@@ -1,0 +1,14 @@
+name: Share feedback
+description: Ask a question or tell us about your experience.
+title: '[Feedback] '
+body:
+  - type: markdown
+    attributes:
+      value: 'Reports are public. For private questions or privacy requests, email lamnv260398@gmail.com.'
+  - type: textarea
+    id: feedback
+    attributes:
+      label: What’s on your mind?
+      description: Include the level number if you need help with a puzzle.
+    validations:
+      required: true

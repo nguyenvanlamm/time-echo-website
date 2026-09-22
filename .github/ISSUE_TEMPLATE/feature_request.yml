@@ -1,0 +1,14 @@
+name: Suggest a feature
+description: Share an idea for Time Echo.
+title: '[Idea] '
+body:
+  - type: markdown
+    attributes:
+      value: 'This is a public discussion. Please keep personal information out of your report.'
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to see?
+      description: Describe the idea and how it would improve your experience.
+    validations:
+      required: true
