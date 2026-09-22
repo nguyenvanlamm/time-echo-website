@@ -4,7 +4,7 @@ import shutil
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / 'dist'
-BASE = 'https://luongnv89.github.io/time-echo-website/'
+BASE = 'https://luongnv.com/time-echo-website/'
 EMAIL = 'lamnv260398@gmail.com'
 ISSUES = 'https://github.com/luongnv89/time-echo-website/issues'
 

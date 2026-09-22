@@ -3,7 +3,7 @@
 The official coming-soon, support, privacy, and changelog website for Time Echo.
 A static site with locally hosted assets, no production dependencies, no trackers,
 and no form backend. Built for GitHub Pages at:
-https://luongnv89.github.io/time-echo-website/
+https://luongnv.com/time-echo-website/
 
 ## Develop
 
@@ -28,11 +28,11 @@ Keep Issues enabled: the support page links to this repository's issue forms.
 
 ## App Store Connect URLs
 
-- Marketing: https://luongnv89.github.io/time-echo-website/
-- Support: https://luongnv89.github.io/time-echo-website/support.html
-- Privacy Policy: https://luongnv89.github.io/time-echo-website/privacy.html
-- User Privacy Choices (optional): https://luongnv89.github.io/time-echo-website/privacy.html#your-choices
-- Changelog: https://luongnv89.github.io/time-echo-website/changelog.html
+- Marketing: https://luongnv.com/time-echo-website/
+- Support: https://luongnv.com/time-echo-website/support.html
+- Privacy Policy: https://luongnv.com/time-echo-website/privacy.html
+- User Privacy Choices (optional): https://luongnv.com/time-echo-website/privacy.html#your-choices
+- Changelog: https://luongnv.com/time-echo-website/changelog.html
 
 Check these URLs are publicly reachable before submitting. Apple also requires
 an easily accessible privacy-policy link inside the app; the inspected game's
