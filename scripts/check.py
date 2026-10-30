@@ -28,14 +28,14 @@ for path, doc in docs.items():
     for link in doc.links:
         url = urlsplit(link)
         if url.scheme or url.netloc: continue
-        local = unquote(url.path).removeprefix('/time-echo-website/')
+        local = unquote(url.path).removeprefix('/')
         target = path if not local else ROOT / local
         if target.is_dir(): target /= 'index.html'
         assert target.exists(), f'{path.name}: missing {link}'
         if url.fragment and target.suffix == '.html':
             assert unquote(url.fragment) in docs[target].ids, f'{path.name}: missing fragment {link}'
     for image in doc.images:
-        assert (ROOT / image.split('/time-echo-website/')[-1]).is_file(), 'Missing social image'
+        assert (ROOT / urlsplit(image).path.removeprefix('/')).is_file(), 'Missing social image'
 assert 'IN PREPARATION' in (ROOT / 'changelog.html').read_text()
 assert 'Coming soon' in (ROOT / 'index.html').read_text()
 print(f'Passed: {len(docs)} pages, internal links, fragments, metadata, release status.')

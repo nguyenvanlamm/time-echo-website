@@ -2,8 +2,8 @@
 
 The official coming-soon, support, privacy, and changelog website for Time Echo.
 A static site with locally hosted assets, no production dependencies, no trackers,
-and no form backend. Built for GitHub Pages at:
-https://luongnv.com/time-echo-website/
+and no form backend. Served at:
+https://timeecho.lamnv.com/
 
 ## Develop
 
@@ -28,11 +28,11 @@ Keep Issues enabled: the support page links to this repository's issue forms.
 
 ## App Store Connect URLs
 
-- Marketing: https://luongnv.com/time-echo-website/
-- Support: https://luongnv.com/time-echo-website/support.html
-- Privacy Policy: https://luongnv.com/time-echo-website/privacy.html
-- User Privacy Choices (optional): https://luongnv.com/time-echo-website/privacy.html#your-choices
-- Changelog: https://luongnv.com/time-echo-website/changelog.html
+- Marketing: https://timeecho.lamnv.com/
+- Support: https://timeecho.lamnv.com/support.html
+- Privacy Policy: https://timeecho.lamnv.com/privacy.html
+- User Privacy Choices (optional): https://timeecho.lamnv.com/privacy.html#your-choices
+- Changelog: https://timeecho.lamnv.com/changelog.html
 
 Check these URLs are publicly reachable before submitting. Apple also requires
 an easily accessible privacy-policy link inside the app; the inspected game's
@@ -63,7 +63,7 @@ badge before the listing is live.
 
 The privacy page includes progress, tutorial state, language, sound, and haptic
 preferences verified in `time_echo/lib/data/`. It distinguishes offline app
-behavior from GitHub Pages hosting and voluntary email/GitHub support.
+behavior from Netlify hosting and voluntary email/GitHub support.
 The developer should keep the support retention statement aligned with practice.
 
 ## Design & copy
